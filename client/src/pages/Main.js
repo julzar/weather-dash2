@@ -16,7 +16,7 @@ export default function Main(){
     })
   }, [])
   return (
-    <div className='h-screen bg-gray-800'>
+    <div className='h-screen w-screen bg-gray-800'>
       <Jumbotron />
       <Search />
       <Display />
