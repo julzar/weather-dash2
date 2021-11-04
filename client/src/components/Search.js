@@ -24,7 +24,7 @@ export default function Search() {
 
   return (
     <div className='flex justify-center mb-4'>
-      <input onChange={handleChange} onKeyDown={handleSearch} placeholder='Location'
+      <input onChange={handleChange} onKeyDown={handleSearch} placeholder='Location' value={search}
         className='m-2 bg-gray-400 bg-opacity-50 pl-2 outline-none rounded-xl ring-2 ring-gray-600 hover:bg-gray-200 focus:bg-gray-200' />
       <button onClick={handleSearch} > <img src={search_icon} alt={'search icon'} /> </button>
     </div>
