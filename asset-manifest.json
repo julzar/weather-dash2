@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/weather-dash2/static/css/main.03685b64.chunk.css",
+    "main.js": "/weather-dash2/static/js/main.a476a3a0.chunk.js",
+    "main.js.map": "/weather-dash2/static/js/main.a476a3a0.chunk.js.map",
+    "runtime-main.js": "/weather-dash2/static/js/runtime-main.5f144975.js",
+    "runtime-main.js.map": "/weather-dash2/static/js/runtime-main.5f144975.js.map",
+    "static/js/2.e280e1bc.chunk.js": "/weather-dash2/static/js/2.e280e1bc.chunk.js",
+    "static/js/2.e280e1bc.chunk.js.map": "/weather-dash2/static/js/2.e280e1bc.chunk.js.map",
+    "static/js/3.96cc73ff.chunk.js": "/weather-dash2/static/js/3.96cc73ff.chunk.js",
+    "static/js/3.96cc73ff.chunk.js.map": "/weather-dash2/static/js/3.96cc73ff.chunk.js.map",
+    "index.html": "/weather-dash2/index.html",
+    "static/css/main.03685b64.chunk.css.map": "/weather-dash2/static/css/main.03685b64.chunk.css.map",
+    "static/js/2.e280e1bc.chunk.js.LICENSE.txt": "/weather-dash2/static/js/2.e280e1bc.chunk.js.LICENSE.txt",
+    "static/media/search_icon.f0a473f9.svg": "/weather-dash2/static/media/search_icon.f0a473f9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f144975.js",
+    "static/js/2.e280e1bc.chunk.js",
+    "static/css/main.03685b64.chunk.css",
+    "static/js/main.a476a3a0.chunk.js"
+  ]
+}
