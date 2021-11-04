@@ -8,7 +8,7 @@ export default function ForecastCard({ date, icon, temp, hum, des}) {
       <div className='border-b border-gray-600 mb-4'>
         <div className='space-x-2 flex '>
           <h2 className='font-semibold text-xl inline-block self-center'> {date.substring(5, 10)} </h2> 
-          <img src={path} className='inline-block' />
+          <img src={path} alt='weather icon' className='inline-block' />
         </div>
         <p className='capitalize mb-2'> {des} </p>
       </div>
