@@ -1,21 +1,7 @@
 import React, { useEffect, useState } from 'react'
-const moment = require('moment')
+// const moment = require('moment')
 
 export default function WeatherData ({ temp, feels, hum, wind, uv, date, loc, icon, coun, des}) {
-  // function setColor(uv) {
-  //   switch(true) {
-  //     case uv < 3:
-  //       return 'bg-green-400'
-  //     case uv < 6:
-  //       return 'bg-yellow-300'
-  //     case uv < 8:
-  //       return 'bg-yellow-500'
-  //     case uv < 11:
-  //       return 'bg-red-500'
-  //     default:
-  //       return 'bg-purple-500'
-  //   }
-  // }
   const [ color, setColor ] = useState('')
   useEffect(() => {
     colorState(uv)
@@ -35,9 +21,9 @@ export default function WeatherData ({ temp, feels, hum, wind, uv, date, loc, ic
       case val < 11:
         setColor('bg-red-500')
       break;
-      case val >= 11:
+      default:
         setColor('bg-purple-500')
-      break;    
+      break;
     }
   }
 
